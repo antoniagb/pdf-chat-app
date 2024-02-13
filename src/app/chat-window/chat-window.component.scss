@@ -1,0 +1,29 @@
+.chat-window {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; // 100% der Bildschirmhöhe
+  }
+  .message-list {
+    // Stile für die Nachrichtenliste, wenn nötig
+  }
+  
+  .message {
+    // Stile für jede Nachricht, wenn nötig
+  }
+  
+  .input-container {
+    margin-top: 10px; // Platzierung des Eingabebereichs unterhalb der Nachrichtenliste
+    display: flex;
+    align-items: center;
+  
+    input {
+      // Stile für das Eingabefeld
+    }
+  
+    button {
+      // Stile für den Senden-Button
+      margin-left: 10px; // Platz zwischen Eingabefeld und Button
+    }
+  }  
